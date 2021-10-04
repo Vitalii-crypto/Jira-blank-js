@@ -1,0 +1,23 @@
+{
+    "expressErrorHandling": true,
+    "development": {
+        "port": 3000,
+        "store": {
+            "adapter": "mongodb",
+            "url": "mongodb://127.0.0.1:27017",
+            "database": "TESTSUPPERAPP",
+            "collection": "AddonSettings",
+            "useUnifiedTopology": true
+        }
+    },
+    "production": {
+        "port": 3000,
+        "store": {
+            "adapter": "mongodb",
+            "url": "mongodb://127.0.0.1:27017",
+            "database": "TESTSUPPERAPP",
+            "collection": "AddonSettings",
+            "useUnifiedTopology": true
+        }
+    }
+}

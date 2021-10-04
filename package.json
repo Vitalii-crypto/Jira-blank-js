@@ -1,0 +1,9 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "cd client && npm i && npm run build-prod && cd ../server && npm i && npm run build"
+  }
+}

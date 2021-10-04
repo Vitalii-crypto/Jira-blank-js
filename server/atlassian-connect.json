@@ -1,0 +1,30 @@
+{
+    "key": "test",
+    "name": "TEST",
+    "description": "Some desc",
+    "baseUrl": "https://f75c-5-58-4-42.ngrok.io",
+    "authentication": {
+        "type": "jwt"
+    },
+    "lifecycle": {
+        "installed": "/installed"
+    },
+    "scopes": [
+        "READ", "WRITE"
+    ],
+    "modules": {
+        "generalPages": [
+            {
+                "key": "main-page",
+                "location": "system.top.navigation.bar",
+                "name": {
+                    "value": "Main Page"
+                },
+                "url": "/main",
+                "conditions": [{
+                    "condition": "user_is_logged_in"
+                }]
+            }
+        ]
+    }
+}
