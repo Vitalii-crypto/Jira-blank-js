@@ -2,7 +2,7 @@
     "key": "test",
     "name": "TEST",
     "description": "Some desc",
-    "baseUrl": "https://f75c-5-58-4-42.ngrok.io",
+    "baseUrl": "https://a898-5-58-33-44.ngrok.io",
     "authentication": {
         "type": "jwt"
     },
